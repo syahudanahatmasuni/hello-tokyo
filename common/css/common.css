@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+
+/* ==========================================================================
+Reset & Base Setting
+========================================================================== */
+/* default style reset
+-------------------------------------*/
+html {
+	background: #fff;
+	font-size: 100%;
+}
+
+body,
+div,
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+}
+
+/* body setting
+-------------------------------------*/
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 87.5%;
+	text-align: left;
+	line-height: 1.5;
+	color: #333;
+}
+
+a {
+	color: #0a6cff;
+}
+
+a:link {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer !important;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+
+/* Component
+-------------------------------------*/
+.headerLevel01wrap {
+	margin: 0 0 30px;
+}
+
+.sectionType01 {
+	margin: 0 0 30px;
+}
+
+.sectionType02 {
+	margin: 0 0 30px;
+}
+
+.imageBlock {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.txtR {
+	text-align: right;
+}
+
+.tableArea table {
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+th {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-spacing: 0;
+	padding: 10px;
+}
+
+td {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 0 5px;
+}
+
+/* Layout
+-------------------------------------*/
+.wrap {
+	margin: 0 auto;
+	width: 660px;
+}
+
+#header {
+	margin-bottom: 30px;
+}
+
+.main {
+	margin: 0 10px;
+}
+
+.pageTopBtn {
+	text-align: right;
+}
+
+
+
+/* Add from here
+-------------------------------------*/
+h1 {
+	background: #4a0083;
+	color: #fff;
+}
+
+h2 {
+	color: #0a6cff;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.imageBlock {
+	margin-top: 30px;
+}
+
+.txtFloatR {
+	float: right;
+}
+
+.txtMargin {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.txtPurple {
+	color: #ee1e6e;
+}
